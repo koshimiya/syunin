@@ -15,7 +15,37 @@ public class FizzBuzz {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+    	FizzBuzz fz = new FizzBuzz();
+
+    	String numString = args[0];
+
+    	Integer num = Integer.parseInt(numString);
+
+    	String result = fz.fizzBuzz(num);
+
+
+    	System.out.println(result);
+
+    }
+
+    public String fizzBuzz(Integer num) {
+
+    	String result = "";
+
+    	if (num % 3 == 0) {
+    		result = "Fizz";
+    	}
+
+    	if (num % 5 == 0) {
+    		result += "Buzz";
+    	}
+
+    	if (result.length() == 0) {
+    		result = num.toString();
+    	}
+
+    	return result;
     }
     
 }
