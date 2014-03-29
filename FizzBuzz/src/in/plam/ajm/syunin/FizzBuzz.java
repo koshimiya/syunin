@@ -40,7 +40,7 @@ public class FizzBuzz {
     	}
 
     	if (num % 5 == 0) {
-    		result += "Buzz";
+    		result += " Buzz";
     	}
 
     	if (result.length() == 0) {
