@@ -50,36 +50,43 @@ public class FizzBuzzTest {
         //fail("The test case is a prototype.");
     }
     
+    @Test
     public void test3Times(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("Fizz",fz.fizzBuzz(3));
     }
-    
+
+    @Test
     public void test5Times(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("Buzz",fz.fizzBuzz(5));
     }
-    
+
+    @Test
     public void test15Times(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("FizzBuzz",fz.fizzBuzz(15));
     }
 
+    @Test
     public void test3Times_9(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("Fizz",fz.fizzBuzz(9));
     }
-    
+
+    @Test
     public void test5Times_10(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("Fizz",fz.fizzBuzz(10));
     }
     
+    @Test
     public void test15Times_30(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("Fizz",fz.fizzBuzz(10));
     }
 
+    @Test
     public void test2Times(){
         FizzBuzz fz = new FizzBuzz();
         assertEquals("Fizz",fz.fizzBuzz(2));
