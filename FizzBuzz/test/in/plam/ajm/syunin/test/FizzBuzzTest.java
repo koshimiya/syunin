@@ -77,18 +77,18 @@ public class FizzBuzzTest {
     @Test
     public void test5Times_10(){
         FizzBuzz fz = new FizzBuzz();
-        assertEquals("Fizz",fz.fizzBuzz(10));
+        assertEquals("Buzz",fz.fizzBuzz(10));
     }
     
     @Test
     public void test15Times_30(){
         FizzBuzz fz = new FizzBuzz();
-        assertEquals("Fizz",fz.fizzBuzz(10));
+        assertEquals("FizzBuzz",fz.fizzBuzz(30));
     }
 
     @Test
     public void test2Times(){
         FizzBuzz fz = new FizzBuzz();
-        assertEquals("Fizz",fz.fizzBuzz(2));
+        assertEquals("2",fz.fizzBuzz(2));
     }
 }
