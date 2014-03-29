@@ -47,7 +47,41 @@ public class FizzBuzzTest {
         String[] args = null;
         FizzBuzz.main(args);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
+    public void test3Times(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("Fizz",fz.fizzBuzz(3));
+    }
+    
+    public void test5Times(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("Buzz",fz.fizzBuzz(5));
+    }
+    
+    public void test15Times(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("FizzBuzz",fz.fizzBuzz(15));
+    }
+
+    public void test3Times_9(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("Fizz",fz.fizzBuzz(9));
+    }
+    
+    public void test5Times_10(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("Fizz",fz.fizzBuzz(10));
+    }
+    
+    public void test15Times_30(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("Fizz",fz.fizzBuzz(10));
+    }
+
+    public void test2Times(){
+        FizzBuzz fz = new FizzBuzz();
+        assertEquals("Fizz",fz.fizzBuzz(2));
+    }
 }
