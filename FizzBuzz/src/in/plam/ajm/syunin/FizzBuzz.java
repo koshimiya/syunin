@@ -18,6 +18,8 @@ public class FizzBuzz {
 
     	FizzBuzz fz = new FizzBuzz();
 
+    	if (args == null) return;
+
     	String numString = args[0];
 
     	Integer num = Integer.parseInt(numString);
